@@ -32,7 +32,7 @@ public class AuthoritiesView {
 
   public Authorities getInputAuthority() {
     System.out.println("Enter Authority Details:");
-    scanner.nextLine(); // Consume the newline character left by previous nextInt()
+    scanner.nextLine(); 
     System.out.print("Authority Mail: ");
     String authorityMail = scanner.nextLine();
     System.out.print("Authority Name: ");
