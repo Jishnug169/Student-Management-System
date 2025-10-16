@@ -34,7 +34,7 @@ public class ClassesView {
 
   public Classes getInputClass() {
     System.out.println("Enter Class Details:");
-    scanner.nextLine(); // Consume the newline character left by previous nextInt()
+    scanner.nextLine(); 
     System.out.print("Class Name: ");
     String className = scanner.nextLine();
     System.out.print("Class Room No: ");
